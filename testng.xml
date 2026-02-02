@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="CyberSoft Final Suite">
+    <listeners>
+        <listener class-name="com.NguyenHoangPhiTuyet.tests.TestListener"/>
+    </listeners>
+
+    <test name="Auth Tests">
+        <classes>
+            <class name="com.NguyenHoangPhiTuyet.tests.Auth_Register_TC01_Test"/>
+            <class name="com.NguyenHoangPhiTuyet.tests.Auth_Register_TC03_Test"/>
+            <class name="com.NguyenHoangPhiTuyet.tests.Auth_Login_TC05_Test"/>
+            <class name="com.NguyenHoangPhiTuyet.tests.Auth_Login_TC06_Test"/>
+            <class name="com.NguyenHoangPhiTuyet.tests.Auth_Login_TC07_Test"/>
+            <class name="com.NguyenHoangPhiTuyet.tests.Auth_Login_TC08_Test"/>
+            <class name="com.NguyenHoangPhiTuyet.tests.Profile_TC53_Test"/>
+            <class name="com.NguyenHoangPhiTuyet.tests.Profile_TC54_Test"/>
+            <class name="com.NguyenHoangPhiTuyet.tests.Profile_TC55_Test"/>
+        </classes>
+    </test>
+</suite>
+
