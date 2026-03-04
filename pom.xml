@@ -15,7 +15,7 @@
         <maven.compiler.source>21</maven.compiler.source>
         <maven.compiler.target>21</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <selenium.version>4.17.0</selenium.version>
+        <selenium.version>4.27.0</selenium.version>
         <testng.version>7.9.0</testng.version>
     </properties>
 
@@ -41,7 +41,7 @@
         <dependency>
             <groupId>io.github.bonigarcia</groupId>
             <artifactId>webdrivermanager</artifactId>
-            <version>5.6.3</version>
+            <version>5.6.4</version>
         </dependency>
 
         <!-- Extent Report -->
@@ -57,7 +57,6 @@
             <artifactId>jackson-databind</artifactId>
             <version>2.17.2</version>
         </dependency>
-
 
     </dependencies>
 

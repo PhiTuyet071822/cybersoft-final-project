@@ -1,0 +1,18 @@
+#URL ung dung
+login.url=
+dashboard.url=
+# thong tin dang nhap
+valid.username=
+valid.password=
+
+invalid.username=
+invalid.password=
+
+# cau hinh web driver
+brower=
+implicit.wait=
+
+# cau hinh extend report
+report.path=
+report.name=
+
