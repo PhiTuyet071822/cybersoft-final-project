@@ -1,9 +1,8 @@
-package tests;
+package com.NguyenHoangPhiTuyet.tests;
 
-import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 import org.testng.annotations.Test;
-import pages.HomePage;
+import com.NguyenHoangPhiTuyet.pages.HomePage;
 import utils.BaseTest;
 
 public class SearchGigTest extends BaseTest {

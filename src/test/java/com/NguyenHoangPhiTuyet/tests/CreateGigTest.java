@@ -1,10 +1,10 @@
-package tests;
+package com.NguyenHoangPhiTuyet.tests;
 
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
-import pages.LoginAdminPage;
-import pages.SellerPage;
+import com.NguyenHoangPhiTuyet.pages.LoginAdminPage;
+import com.NguyenHoangPhiTuyet.pages.SellerPage;
 import utils.BaseTest;
 
 public class CreateGigTest extends BaseTest {

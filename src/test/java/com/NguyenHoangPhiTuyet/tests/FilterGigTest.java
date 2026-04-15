@@ -1,9 +1,9 @@
-package tests;
+package com.NguyenHoangPhiTuyet.tests;
 
 import org.testng.Assert;
 import org.testng.annotations.Test;
-import pages.HomePage;
-import pages.SearchResultPage;
+import com.NguyenHoangPhiTuyet.pages.HomePage;
+import com.NguyenHoangPhiTuyet.pages.SearchResultPage;
 import utils.BaseTest;
 
 import java.util.List;

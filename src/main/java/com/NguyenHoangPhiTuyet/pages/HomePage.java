@@ -1,11 +1,9 @@
-package pages;
+package com.NguyenHoangPhiTuyet.pages;
 
 import org.openqa.selenium.*;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import utils.ConfigReader;
 
 import java.time.Duration;
-import java.util.ArrayList;
 import java.util.List;
 
 public class HomePage {
