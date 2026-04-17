@@ -27,7 +27,7 @@ public final class ScreenshotUtils {
             Path dest = Path.of(FrameworkConstants.SCREENSHOTS_FOLDER, fileName);
 
             Files.copy(src.toPath(), dest);
-            return dest.toString();
+            return "screenshots/" + fileName;
         } catch (Exception e) {
             return null;
         }

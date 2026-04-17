@@ -9,5 +9,5 @@ public final class FrameworkConstants {
     public static final int EXPLICIT_WAIT = 10;
 
     public static final String REPORTS_FOLDER = "reports";
-    public static final String SCREENSHOTS_FOLDER = "screenshots";
+    public static final String SCREENSHOTS_FOLDER = "reports/screenshots";
 }
