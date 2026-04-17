@@ -2,6 +2,7 @@ package com.NguyenHoangPhiTuyet.tests;
 
 import com.NguyenHoangPhiTuyet.constants.TestData;
 import com.NguyenHoangPhiTuyet.pages.RegisterPage;
+import com.NguyenHoangPhiTuyet.tests.base.BaseTest;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 

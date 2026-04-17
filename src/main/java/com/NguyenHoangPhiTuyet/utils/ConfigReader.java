@@ -1,4 +1,4 @@
-package utils;
+package com.NguyenHoangPhiTuyet.utils;
 
 import java.io.InputStream;
 import java.util.Properties;
