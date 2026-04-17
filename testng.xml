@@ -2,7 +2,7 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="CyberSoft Final Suite">
     <listeners>
-        <listener class-name="com.NguyenHoangPhiTuyet.tests.TestListener"/>
+        <listener class-name="com.NguyenHoangPhiTuyet.tests.listeners.TestListener"/>
     </listeners>
 
     <test name="Auth Tests">
@@ -19,6 +19,11 @@
             <class name="com.NguyenHoangPhiTuyet.tests.Order_Purchase_Flow_Test"/>
             <class name="com.NguyenHoangPhiTuyet.tests.Message_TC62_TC63_Test"/>
             <class name="com.NguyenHoangPhiTuyet.tests.Review_TC47_Test"/>
+            <class name="com.NguyenHoangPhiTuyet.tests.AddNewAdminTest"/>
+            <class name="com.NguyenHoangPhiTuyet.tests.CreateGigTest"/>
+            <class name="com.NguyenHoangPhiTuyet.tests.FilterGigTest"/>
+            <class name="com.NguyenHoangPhiTuyet.tests.LoginAdminTest"/>
+            <class name="com.NguyenHoangPhiTuyet.tests.SearchGigTest"/>
         </classes>
     </test>
 </suite>

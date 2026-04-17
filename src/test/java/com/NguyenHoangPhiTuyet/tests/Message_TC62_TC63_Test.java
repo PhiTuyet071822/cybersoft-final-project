@@ -2,10 +2,10 @@ package com.NguyenHoangPhiTuyet.tests;
 
 import com.NguyenHoangPhiTuyet.pages.JobDetailMessagePage;
 import com.NguyenHoangPhiTuyet.pages.LoginPage;
+import com.NguyenHoangPhiTuyet.tests.base.BaseTest;
 import com.NguyenHoangPhiTuyet.tests.data.AuthData;
 import com.NguyenHoangPhiTuyet.utils.JsonUtils;
 import org.testng.Assert;
-import org.testng.SkipException;
 import org.testng.annotations.Test;
 
 public class Message_TC62_TC63_Test extends BaseTest {

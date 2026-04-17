@@ -1,6 +1,7 @@
 package com.NguyenHoangPhiTuyet.tests;
 
 import com.NguyenHoangPhiTuyet.pages.LoginPage;
+import com.NguyenHoangPhiTuyet.tests.base.BaseTest;
 import com.NguyenHoangPhiTuyet.tests.data.AuthData;
 import com.NguyenHoangPhiTuyet.tests.flows.OrderFlow;
 import com.NguyenHoangPhiTuyet.tests.flows.ReviewFlow;

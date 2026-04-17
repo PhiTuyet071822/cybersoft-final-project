@@ -1,4 +1,4 @@
-package com.NguyenHoangPhiTuyet.tests;
+package com.NguyenHoangPhiTuyet.tests.listeners;
 
 import com.NguyenHoangPhiTuyet.utils.ExtentManager;
 import com.NguyenHoangPhiTuyet.utils.ScreenshotUtils;

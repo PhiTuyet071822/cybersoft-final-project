@@ -1,43 +1,29 @@
-target/
-!.mvn/wrapper/maven-wrapper.jar
-!**/src/main/**/target/
-!**/src/test/**/target/
-.kotlin
-
-### IntelliJ IDEA ###
-.idea/modules.xml
-.idea/jarRepositories.xml
-.idea/compiler.xml
-.idea/libraries/
-*.iws
+# IntelliJ
+.idea/
 *.iml
-*.ipr
 
-### Eclipse ###
-.apt_generated
-.classpath
-.factorypath
-.project
-.settings
-.springBeans
-.sts4-cache
+# Maven
+target/
 
-### NetBeans ###
+# Reports
+reports/
+test-output/
+.idea/screenshots/
+
+# VS Code
+.vscode/
+
+# OS
+.DS_Store
+
+# NetBeans
 /nbproject/private/
 /nbbuild/
 /dist/
 /nbdist/
 /.nb-gradle/
+
+# Build folders
 build/
 !**/src/main/**/build/
 !**/src/test/**/build/
-
-### VS Code ###
-.vscode/
-
-### Mac OS ###
-.DS_Store
-
-echo ".idea/" >> .gitignore
-echo "reports/" >> .gitignore
-echo "screenshots/" >> .gitignore

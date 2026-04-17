@@ -1,5 +1,6 @@
-package com.NguyenHoangPhiTuyet.tests;
+package com.NguyenHoangPhiTuyet.tests.base;
 
+import com.NguyenHoangPhiTuyet.tests.listeners.TestListener;
 import com.NguyenHoangPhiTuyet.utils.DriverFactory;
 import com.NguyenHoangPhiTuyet.utils.DriverManager;
 import org.testng.annotations.AfterMethod;
