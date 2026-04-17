@@ -5,7 +5,7 @@ public final class TestData {
     private TestData() {}
 
     public static String uniqueEmail() {
-        return "tet" + System.currentTimeMillis() + "@mailinator.com";
+        return "Tet" + System.currentTimeMillis() + "@mailinator.com";
     }
 
     public static final String VALID_PASSWORD = "Tet@12345";

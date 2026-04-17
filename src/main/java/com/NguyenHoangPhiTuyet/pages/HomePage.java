@@ -56,5 +56,4 @@ public class HomePage {
         return results.size() > 0;
     }
 
-
 }
